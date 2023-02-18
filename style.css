@@ -1,0 +1,152 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+ 
+
+}
+
+body {
+    color:black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', sans-serif;
+}
+
+.title {
+    height: 100px;
+    background-color: burlywood;
+    
+    border: 8px solid black;
+    border-radius: 25px 25px 25px 25px;
+    margin: 10px 30px 10px 30px;
+    text-align:center;
+    
+}
+
+.title h2 {
+    margin-top:8px;
+}
+
+.row {
+    display:flex;
+    flex-wrap:wrap;
+    margin:30px 0 0 30px;
+    background-color: #eeebf5;
+  }
+
+  .row span {
+      font-weight: bold;
+  }
+.left {
+     padding-top:20px;
+     width: 20%;
+     background-color:burlywood;
+     height:860px;
+     border: 8px solid black;
+     border-radius: 25px 25px 25px 25px;
+  
+     text-align: center;
+}
+
+.fas {
+  width:30px;
+  text-align:center;
+ 
+
+}
+
+a {
+    color:blue;
+}
+
+.fa-link {
+    margin-top:20px;
+    padding-left: 0px;
+}
+
+.ref i {
+    font-weight: bold;
+}
+.ref {  
+    font-size:16px;
+}
+
+.ref p {
+padding-top: 10px;
+padding-bottom: 10px;
+}
+
+.ref img {
+    padding-top: 30px;
+   
+    }
+    
+
+.right {
+
+
+    width:80%;
+    padding-left:30px;
+
+}
+
+.right h1 {
+   font-size:30px;
+   margin-bottom:10px;
+
+}
+
+.right .bloc1 {
+    background-color:burlywood;
+    width:97%;
+    border:5px solid black;
+    height:200px;
+
+}
+
+
+.right .bloc1 p { 
+    padding-top:5px;
+}
+
+.right .bloc2 {
+    margin-top: 10px;
+    background-color:burlywood;
+    width:97%;
+    border:5px solid black;
+    height:100px;
+
+}
+
+
+.right .bloc2 p { 
+    padding-top:5px;
+}
+
+.right .bloc3 {
+    margin-top: 10px;
+    background-color:burlywood;
+    width:97%;
+    border:5px solid black;
+    height:130px;
+
+}
+
+.right .bloc3 h2 { 
+    padding-top:10px;
+    font-size: 17px;
+}
+
+.right .bloc4 {
+    margin-top: 10px;
+    background-color:burlywood;
+    width:97%;
+    border:5px solid black;
+    height:280px;
+
+}
+
+.right .bloc4 h2 { 
+    padding-top:10px;
+    font-size: 17px;
+}
+
